@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+
+.font_colg{
+    @apply text-lg font-medium hover:text-orange-700
+}
+
+@tailwind utilities;
+
+
+body{
+    background-color: #ffffff;
+}
+
+.btn_read{
+    transition: all 0.60s;
+}
+
+.font_colg, .fgtyh{
+    transition: all 0.30s;
+}
+
+.img_hover{
+    transition: all 0.60s;
+}
+
+.div_hover:hover .img_hover{
+    transform: scale(1.1);
+}
+
+.gnhuj:hover .svg_hy{
+    color: #dd6809;
+}
+
+.btn_fgt5t{
+    transition: all 0.30s;
+}
